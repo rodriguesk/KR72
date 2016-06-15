@@ -6,3 +6,4 @@ Used Chie Imamura’s script as a starting point for choosing which package and 
 found here:
 smb://niddkb8na2.niddk.nih.gov/deobhome/TarbellGroup/GroupMembers/Kameron/KR72/heatmap script from Chie.R
 
+Researched on google about various packages in R that can make heatmaps.
