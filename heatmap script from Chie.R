@@ -17,6 +17,7 @@ heatmap.2(as.matrix(DC),
           key=TRUE, 
           density.info="none", 
           margin=c(5,4),
-          main="heatmap2")
+          main="heatmap2"
+          )
 
 dev.off()
