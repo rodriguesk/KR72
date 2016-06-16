@@ -147,8 +147,8 @@ rm(list=setdiff(ls(), keep))
 my_palette<- colorRampPalette(c("red","yellow","green"))(n=299)
 
 col_breaks<-c(seq(-1,0,length=100),
-              seq(0,0.8,length=100),
-              seq(0.8,1,length=100))
+              seq(0.008080808,0.8,length=100),
+              seq(0.802020202,1,length=100))
 
 heatmap.2(map.MHCII,
           cellnote=map.MHCII,
@@ -160,9 +160,9 @@ heatmap.2(map.MHCII,
           col=my_palette,
           breaks=col_breaks,
           dendrogram = "row",
-          Colv="Rowv"
+          Colv="NA"
 )
 
-
+dev.off()
 
 
